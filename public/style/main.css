@@ -1,0 +1,131 @@
+body {
+  font-family: Tahoma;
+  font-size: 18px;
+}
+
+.my-container {
+  max-width: 700px;
+}
+
+#register-module {
+  max-width: 500px;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+  font-size: 2em;
+  color: green;
+  font-family: serif;
+}
+
+#register-module input[name=year] {
+
+}
+#login-module {
+  max-width: 500px;
+}
+
+.blogs {
+  width: 100%;
+  color: black;
+  margin-bottom: 50px;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.blogs col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.blogs:hover {
+   cursor: pointer;
+}
+
+.blogs h2 {
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.blogs h4 {
+  padding-left: 10px;
+}
+
+.blogImg {
+  width: 100%;
+  height: 500px;
+  border-top-radius: 5px;
+}
+
+footer {
+  background-color: #eee;
+  margin-top: 100px;
+}
+
+footer p {
+  padding: 20px;
+  margin: 0;
+}
+
+.edit-button {
+  float: right;
+  margin-top: 5px;
+  font-size: 20px;
+  background-color: #28a745;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.delete-button {
+  float: right;
+  margin-top: 5px;
+  font-size: 20px;
+  background-color: red;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+#nav-author-name {
+  border: none;
+}
+
+#nav-author-name:hover {
+  cursor: pointer;
+}
+
+#edit-user-profile-view {
+  max-width: 400px;
+  margin: auto;
+}
+
+#show-edit-profile-avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.visit-button {
+  float: right;
+  font-size: 20px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.visit-button:hover {
+  cursor: pointer;
+}
+
+main {
+  padding-bottom: 90px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
